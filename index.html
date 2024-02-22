@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Tripathi - Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f7271e6b6b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Harsh Tripathi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/" </a>Home</a></li>
+                    <li><a href="/" </a>About</a></li>
+                    <li><a href="/" </a>Services</a></li>
+                    <li><a href="/" </a>Projects</a></li>
+                    <li><a href="/" </a>Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi,My name is <span class="purple">Harsh Tripathi</span>
+                <div>and I am a passionate</div>
+
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="HARSH TRIPATHI UPDATED RESUME .pdf" download=""><button class="btn">Download Resume</button></a>
+                    <a href="https://github.com/Github-HarshTripathi"><button class="btn">Visit Github</button></a>
+
+                </div>
+
+            </div>
+            <div class="rightsSection">
+                <img src="images/bg for portfolio.jpeg" alt="">
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Software Engineer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+    <!-- ABOUT OF 
+ME  -->
+
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/photo 2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Enthusiastic second-year
+                        student skilled in multiple
+                        programming languages,
+                        adept at problem-solving,
+                        and passionate about
+                        learning new tech. Proven
+                        team player with strong
+                        communication. Ready to
+                        take on the next challenge!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C/C++</span></li>
+                            <li><span>Python</span></li>
+                            <li><span>HTML</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>Javascript</span></li>
+                            <li><span>Data Structure and Algorithm</span></li>
+                            <li><span>Object-Oriented Programming</span></li>
+                            <li><span>Version Control with Git and Github</span></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Embark on an impactful internship journey with Edunet Foundation and EY!</span></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Projects">
+                        <ul>
+                            <li><span>Netflix Clone</span></li>
+                            <li><span>Portfolio</span></li>
+                            <li><span>Basic Calculator</span></li>
+                            <li><span>Landing Page</span></li>                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2026</span><br>Guru Gobind Singh Indraprastha University</li>
+                            <li><span>2022</span><br>St.Xavier Se. Sec. School</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ------------services------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, praesentium.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -----projects------- -->
+
+<div id="Projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/clone site.png" alt="Netflix Clone">
+                <div class="layer">
+                    <h3>Netflix Clone</h3>
+                    <a href="https://harsh-clone-site.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="images/landing page.png" alt="Landing Page">
+                <div class="layer">
+                    <h3>Landing Page</h3>
+                    <a href="https://watch-portfolio-page.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="images/computational tool.png" alt="Calculator">
+                <div class="layer">
+                    <h3>computational Tool</h3>
+                    <a href="https://computational-tool.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+
+            for (tablink of tablinks) {
+
+                tablink.classList.remove("active-link");
+
+            }
+
+            for (tabcontent of tabcontents) {
+
+                tabcontent.classList.remove("active-tab");
+
+            }
+
+            event.currentTarget.classList.add("active-link");
+
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+    </script>
+
+
+<form name="contact" netlify>
+    <p>
+      <label>Name <input type="text" name="name" /></label>
+    </p>
+    <p>
+      <label>Email <input type="email" name="email" /></label>
+    </p>
+    <p>
+      <button type="submit">Send</button>
+    </p>
+  </form>
+  
+</body>
+
+</html>
